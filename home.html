@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="w-full flex h-[75px] bg-violet-700 border-b border-black/opacity-50 backdrop-blur-[10px] justify-center items-center">
+      <nav class="flex justify-between items-center w-[150ch] h-full">
+          <div class="flex items-center">
+              <div class="block lg:hidden">
+                  <button id="menu-btn" class="text-white focus:outline-none mx-2">
+                      <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                      </svg>
+                  </button>
+              </div>
+              <p class="text-white text-xl font-medium font-['Roboto'] mx-4">
+                  Stephen <br /> Enterprises
+              </p>
+          </div>
+          <ul class="hidden lg:flex lg:items-center gap-[24px] ml-auto">
+              <li class="text-white text-base font-medium font-['Roboto']"><a href="./home.html">Home</a></li>
+              <li class="text-white text-base font-medium font-['Roboto']"><a href="#">Services</a></li>
+              <li class="text-white text-base font-medium font-['Roboto']"><a href="/generate_pricing.html">Generate Pricing</a></li>
+              <li class="text-white text-base font-medium font-['Roboto']"><a href="./contact.html">Contact us</a></li>
+              <li>
+                  <button class="bg-white rounded-[5px] p-[8px] hover:bg-gray-200">Schedule an appointment</button>
+              </li>
+          </ul>
+      </nav>
+  </header>
+  <!-- Hamburger Menu-->
+  <div id="mobile-menu" class="hidden lg:hidden bg-violet-700">
+      <nav class="flex flex-col p-4 space-y-2">
+          <a href="#" class="text-white">Home</a>
+          <a href="/" class="text-white">Services</a>
+          <a href="/generate_pricing.html" class="text-white">Generate Pricing</a>
+          <a href="/contact.html" class="text-white">Contact us</a>
+          <a href="#" class="text-white border-2 border-white px-2 py-1 rounded">Schedule an appointment</a>
+      </nav>
+  </div>
+
+  
+    <main>
+      <div class="flex justify-center">
+        <div class="flex w-[150ch]">
+          <div class="flex flex-col gap-[24px] py-[64px]">
+            <div class="text-black text-2xl font-light font-['Roboto']">
+              Legal Services
+            </div>
+            <div class="flex gap-[16px]">
+              <div class="text-black text-5xl font-medium font-['Roboto']">
+                Navigate the
+              </div>
+              <div class="text-violet-700 text-5xl font-medium font-['Roboto']">
+                Legal
+              </div>
+            </div>
+            <div class="flex gap-[16px]">
+              <div class="text-violet-700 text-5xl font-medium font-['Roboto']">
+                Legal
+              </div>
+              <div class="text-black text-5xl font-medium font-['Roboto']">
+                with Confidence
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div class="text-black text-[32px] font-normal font-['Roboto']">
+                We provide experienced legal
+              </div>
+              <div
+                class="flex text-black text-[32px] font-normal font-['Roboto'] gap-[10px]"
+              >
+                representation in
+                <p class="text-violet-700">rent aggremnet</p>
+                etc.
+              </div>
+            </div>
+            <a
+              href="
+            "
+            >
+              <button
+                class="text-white text-[32px] font-medium font-['Roboto] px-[16px] py-[12px] bg-violet-700 rounded-[10px]"
+              >
+                Schedule an Consultation
+              </button></a
+            >
+            <div class="text-black text-base font-light font-['Roboto']">
+              Available 24x7
+            </div>
+          </div>
+          <!-- images  -->
+          <div class="grid grid-rows-2 flex-1 p-[32px] gap-[24px]">
+            <div class="grid grid-cols-3 gap-[24px]">
+              <img
+                src="./img/bio.jpg"
+                alt=""
+                class="h-full w-full object-cover rounded-[16px] position-left"
+              />
+              <img
+                src="./img/document.jpg"
+                alt=""
+                class="h-full w-full object-cover rounded-[16px]"
+              />
+              <img
+                src="./img/key.jpg"
+                alt=""
+                class="h-full w-full object-cover rounded-[16px]"
+              />
+            </div>
+            <!-- <img src="pc.jpg" alt="" /> -->
+            <img
+              src="./img/pc.jpg"
+              alt=""
+              class="flex-1 h-[240px] w-full object-cover rounded-[16px] position-center"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- service section  -->
+    <div class="flex justify-center flex-col items-center   ">
+      <div class="flex w-[150ch] justify-center py-[32px] flex-col">
+        <div class="flex flex-col items-center">
+            <div class="text-black text-5xl font-medium font-['Roboto']">Our Services</div>
+            <div class="text-violet-700 text-2xl font-normal font-['Roboto']">what we provide</div>
+        </div>
+        <!-- services 3 section  -->
+        
+      </div>
+      <div class="w-full bg-violet-700 flex justify-center p-[24px] items-center">
+        <div class="flex w-[150ch] justify-center  gap-[32px] ">
+            <div class="flex  flex-col justify-center items-center gap-[24px] bg-white w-full  h-fit p-[32px] rounded-[16px]">
+                <div class="flex justify-between w-full">
+                <!-- service 1 -->
+            <div class="flex flex-col gap-[16px]">
+                <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="26.9918" height="25" fill="url(#pattern0_97_847)"/>
+                    <defs>
+                    <pattern id="pattern0_97_847" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_97_847" transform="matrix(0.00926209 0 0 0.01 0.0368957 0)"/>
+                    </pattern>
+                    <image id="image0_97_847" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4tcRRTGyxfiE1HwEZJ0nWs0IOpCxZU6glufi0GdrurRBIKCcaOggiAYxT9AVNyIoKAG3Aoq0YUQXcT0OdcxgYgaCKgkQiTEV5JxpC5O7FvdtzOZ7plz6nR9UIvpR91zv1+dqjrVMz3GZGVlZWVlrbI80EKSzdJxb2nWaBO7sTBKw398Cx8zmsRvKmUouoCQrkyJb84Il9cORQ8Q0gEldSAOcL7/Z9xkUlXyQIruozGUpDMldSDGGKMKigYgqqBoAaIGiiYgKqBoA5I8FI1AkoaiFUiyUDQDSRLKcoEMP8KgsbVxxJsUlEkAkhSUSQGSDJRJApIElFFvMMV4nWQokwhENJRJBSIWyiQDEQkl9UXdr1CrIHH83lcGQs1gLB3PQEBGhrBN4TlDSAcQrfLcfrAHIEzsfrAHIEzsfrAHIEzsfkhf1P0q75oyEMhAcoYMUc4QyBkia0QIE7sf7AEIE7sf7AEIE7sf7AEIE7sfuQ6pKwOBvMsay4jgrrh9rtQzkFUR+5wpTOx+sAcgTOx+sAcgTOx+sAcgTOx+5F1WXRkI5G3vWEYEdz3hcx2SgayK2OdMYWL3gz0AYWL3gz0AYWL3gz0AYWL3gz0AYWL3YyUDcAVe7gG3OaDPHOBeb2mHs/h0e8NXFxuhUgvEW7rPWTzSUC/81F5PNxmBUgmk0+o+0P93e1Gz+Mtsq3uJESZ1QGZbXTskM2rNAT5nhEkdEA/0QWT6nx7wKVfg9d7S6/UsoR1GmFQBqbIj/h5di53F5x8udl8TTVvfGWFSBcRZer7eH37Zv+vqhUUHjTApA4KfRtPV5t7nZwq6YakZ8oJZOHPLzbvOWeq1p6Y+Pzu8x4woVUC8pUO9fc2sL4v4WxPqwOjjQf24Ah/3QEe9xb+dpVearteB8kZn8TVvaZ+zdMwB/uqhnB7pHrQAmTbbz4rWjxPxiHWAH0VT2ra4n3ZBd/VtmS0+WIt5zZ7LvMW3qq/A6N+5/WzMwhlm0oG4K/CCaPT/3vv8bGvuyurfFPVeryhvGdDH/gE1S3ky3gJv8xYPNG+l6cfl3oMqIEHO4l+9fW1eO3fpyetYfDUy+UA8ksP01GR0x9IdzuKTYWpqeM0JB7S7DXS7FD/YAwgjuTZaW+X94fG2pY2xkc6Wz/S+twPdW/syqF6zHGrKCAdle3rtzvNG9UIhkHrh5yx9GHY/DnBn9PjB6evmLlx830Prvl7jgX6ov+ZU1X5YP/DNTRv3XjQWIzQCabe6d0YL7LwHem/AmrD1/+vjtQ5wTzz9eFtOOaDDDdnyWzi8NCsgVUDCmuCBvh02sp2lL8LuKxwshmlrUCY4iy+F3hzQiwMyA0PFb1ZIyoBUW9t7TjHVbPcWP6nqjIFrAr69uNhv3bDv3P/Oxv7wgN/7Ap89nWJxOVIHpOrT4rvDoTRmzzthzRlHDMuOXRuQtqV74+3vEtpRB+UTRoBUAak+mGquExYGrBVHwtHHI1d/s84IkRogoRKPM8MBzodzqbD7ckBvhLMrB/S+t/hy2CWNq3YYp9QACcVftB4c8wXNmMSkBkjVV3XgV1XPhz3g3SZBqQKyOHVtuWrX+SZRqQOSujy3H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H6d5CDhxzWQgxA4hAwF+4zMQ4DdbJJCsrKysLDPp+hdlrG9fHfucoAAAAABJRU5ErkJggg=="/>
+                    </defs>
+                    </svg>
+                <div class=" text-neutral-800 text-2xl font-normal font-['Roboto']">Legal Aggrement</div>
+                <div class=" text-neutral-800 text-xl font-light font-['Roboto']">1.house Agmgerment<br/>2.shop aggremtn <br/>3.rent aggrement</div>
+            </div>
+            <!-- service 2 -->
+            <div class="flex flex-col gap-[16px]">
+                <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="26.9918" height="25" fill="url(#pattern0_97_847)"/>
+                    <defs>
+                    <pattern id="pattern0_97_847" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_97_847" transform="matrix(0.00926209 0 0 0.01 0.0368957 0)"/>
+                    </pattern>
+                    <image id="image0_97_847" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4tcRRTGyxfiE1HwEZJ0nWs0IOpCxZU6glufi0GdrurRBIKCcaOggiAYxT9AVNyIoKAG3Aoq0YUQXcT0OdcxgYgaCKgkQiTEV5JxpC5O7FvdtzOZ7plz6nR9UIvpR91zv1+dqjrVMz3GZGVlZWVlrbI80EKSzdJxb2nWaBO7sTBKw398Cx8zmsRvKmUouoCQrkyJb84Il9cORQ8Q0gEldSAOcL7/Z9xkUlXyQIruozGUpDMldSDGGKMKigYgqqBoAaIGiiYgKqBoA5I8FI1AkoaiFUiyUDQDSRLKcoEMP8KgsbVxxJsUlEkAkhSUSQGSDJRJApIElFFvMMV4nWQokwhENJRJBSIWyiQDEQkl9UXdr1CrIHH83lcGQs1gLB3PQEBGhrBN4TlDSAcQrfLcfrAHIEzsfrAHIEzsfrAHIEzsfkhf1P0q75oyEMhAcoYMUc4QyBkia0QIE7sf7AEIE7sf7AEIE7sf7AEIE7sfuQ6pKwOBvMsay4jgrrh9rtQzkFUR+5wpTOx+sAcgTOx+sAcgTOx+sAcgTOx+5F1WXRkI5G3vWEYEdz3hcx2SgayK2OdMYWL3gz0AYWL3gz0AYWL3gz0AYWL3gz0AYWL3YyUDcAVe7gG3OaDPHOBeb2mHs/h0e8NXFxuhUgvEW7rPWTzSUC/81F5PNxmBUgmk0+o+0P93e1Gz+Mtsq3uJESZ1QGZbXTskM2rNAT5nhEkdEA/0QWT6nx7wKVfg9d7S6/UsoR1GmFQBqbIj/h5di53F5x8udl8TTVvfGWFSBcRZer7eH37Zv+vqhUUHjTApA4KfRtPV5t7nZwq6YakZ8oJZOHPLzbvOWeq1p6Y+Pzu8x4woVUC8pUO9fc2sL4v4WxPqwOjjQf24Ah/3QEe9xb+dpVearteB8kZn8TVvaZ+zdMwB/uqhnB7pHrQAmTbbz4rWjxPxiHWAH0VT2ra4n3ZBd/VtmS0+WIt5zZ7LvMW3qq/A6N+5/WzMwhlm0oG4K/CCaPT/3vv8bGvuyurfFPVeryhvGdDH/gE1S3ky3gJv8xYPNG+l6cfl3oMqIEHO4l+9fW1eO3fpyetYfDUy+UA8ksP01GR0x9IdzuKTYWpqeM0JB7S7DXS7FD/YAwgjuTZaW+X94fG2pY2xkc6Wz/S+twPdW/syqF6zHGrKCAdle3rtzvNG9UIhkHrh5yx9GHY/DnBn9PjB6evmLlx830Prvl7jgX6ov+ZU1X5YP/DNTRv3XjQWIzQCabe6d0YL7LwHem/AmrD1/+vjtQ5wTzz9eFtOOaDDDdnyWzi8NCsgVUDCmuCBvh02sp2lL8LuKxwshmlrUCY4iy+F3hzQiwMyA0PFb1ZIyoBUW9t7TjHVbPcWP6nqjIFrAr69uNhv3bDv3P/Oxv7wgN/7Ap89nWJxOVIHpOrT4rvDoTRmzzthzRlHDMuOXRuQtqV74+3vEtpRB+UTRoBUAak+mGquExYGrBVHwtHHI1d/s84IkRogoRKPM8MBzodzqbD7ckBvhLMrB/S+t/hy2CWNq3YYp9QACcVftB4c8wXNmMSkBkjVV3XgV1XPhz3g3SZBqQKyOHVtuWrX+SZRqQOSujy3H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H6d5CDhxzWQgxA4hAwF+4zMQ4DdbJJCsrKysLDPp+hdlrG9fHfucoAAAAABJRU5ErkJggg=="/>
+                    </defs>
+                    </svg>
+                <div class=" text-neutral-800 text-2xl font-normal font-['Roboto']">Legal Aggrement</div>
+                <div class=" text-neutral-800 text-xl font-light font-['Roboto']">1.house Agmgerment<br/>2.shop aggremtn <br/>3.rent aggrement</div>
+            </div>
+            <!-- service 3  -->
+            <div class="flex flex-col gap-[16px]">
+                <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="26.9918" height="25" fill="url(#pattern0_97_847)"/>
+                    <defs>
+                    <pattern id="pattern0_97_847" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_97_847" transform="matrix(0.00926209 0 0 0.01 0.0368957 0)"/>
+                    </pattern>
+                    <image id="image0_97_847" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4tcRRTGyxfiE1HwEZJ0nWs0IOpCxZU6glufi0GdrurRBIKCcaOggiAYxT9AVNyIoKAG3Aoq0YUQXcT0OdcxgYgaCKgkQiTEV5JxpC5O7FvdtzOZ7plz6nR9UIvpR91zv1+dqjrVMz3GZGVlZWVlrbI80EKSzdJxb2nWaBO7sTBKw398Cx8zmsRvKmUouoCQrkyJb84Il9cORQ8Q0gEldSAOcL7/Z9xkUlXyQIruozGUpDMldSDGGKMKigYgqqBoAaIGiiYgKqBoA5I8FI1AkoaiFUiyUDQDSRLKcoEMP8KgsbVxxJsUlEkAkhSUSQGSDJRJApIElFFvMMV4nWQokwhENJRJBSIWyiQDEQkl9UXdr1CrIHH83lcGQs1gLB3PQEBGhrBN4TlDSAcQrfLcfrAHIEzsfrAHIEzsfrAHIEzsfkhf1P0q75oyEMhAcoYMUc4QyBkia0QIE7sf7AEIE7sf7AEIE7sf7AEIE7sfuQ6pKwOBvMsay4jgrrh9rtQzkFUR+5wpTOx+sAcgTOx+sAcgTOx+sAcgTOx+5F1WXRkI5G3vWEYEdz3hcx2SgayK2OdMYWL3gz0AYWL3gz0AYWL3gz0AYWL3gz0AYWL3YyUDcAVe7gG3OaDPHOBeb2mHs/h0e8NXFxuhUgvEW7rPWTzSUC/81F5PNxmBUgmk0+o+0P93e1Gz+Mtsq3uJESZ1QGZbXTskM2rNAT5nhEkdEA/0QWT6nx7wKVfg9d7S6/UsoR1GmFQBqbIj/h5di53F5x8udl8TTVvfGWFSBcRZer7eH37Zv+vqhUUHjTApA4KfRtPV5t7nZwq6YakZ8oJZOHPLzbvOWeq1p6Y+Pzu8x4woVUC8pUO9fc2sL4v4WxPqwOjjQf24Ah/3QEe9xb+dpVearteB8kZn8TVvaZ+zdMwB/uqhnB7pHrQAmTbbz4rWjxPxiHWAH0VT2ra4n3ZBd/VtmS0+WIt5zZ7LvMW3qq/A6N+5/WzMwhlm0oG4K/CCaPT/3vv8bGvuyurfFPVeryhvGdDH/gE1S3ky3gJv8xYPNG+l6cfl3oMqIEHO4l+9fW1eO3fpyetYfDUy+UA8ksP01GR0x9IdzuKTYWpqeM0JB7S7DXS7FD/YAwgjuTZaW+X94fG2pY2xkc6Wz/S+twPdW/syqF6zHGrKCAdle3rtzvNG9UIhkHrh5yx9GHY/DnBn9PjB6evmLlx830Prvl7jgX6ov+ZU1X5YP/DNTRv3XjQWIzQCabe6d0YL7LwHem/AmrD1/+vjtQ5wTzz9eFtOOaDDDdnyWzi8NCsgVUDCmuCBvh02sp2lL8LuKxwshmlrUCY4iy+F3hzQiwMyA0PFb1ZIyoBUW9t7TjHVbPcWP6nqjIFrAr69uNhv3bDv3P/Oxv7wgN/7Ap89nWJxOVIHpOrT4rvDoTRmzzthzRlHDMuOXRuQtqV74+3vEtpRB+UTRoBUAak+mGquExYGrBVHwtHHI1d/s84IkRogoRKPM8MBzodzqbD7ckBvhLMrB/S+t/hy2CWNq3YYp9QACcVftB4c8wXNmMSkBkjVV3XgV1XPhz3g3SZBqQKyOHVtuWrX+SZRqQOSujy3H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H6d5CDhxzWQgxA4hAwF+4zMQ4DdbJJCsrKysLDPp+hdlrG9fHfucoAAAAABJRU5ErkJggg=="/>
+                    </defs>
+                    </svg>
+                <div class=" text-neutral-800 text-2xl font-normal font-['Roboto']">Legal Aggrement</div>
+                <div class=" text-neutral-800 text-xl font-light font-['Roboto']">1.house Agmgerment<br/>2.shop aggremtn <br/>3.rent aggrement</div>
+            </div>
+            <!-- service 4  -->
+            <div class="flex flex-col gap-[16px]">
+                <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="26.9918" height="25" fill="url(#pattern0_97_847)"/>
+                    <defs>
+                    <pattern id="pattern0_97_847" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_97_847" transform="matrix(0.00926209 0 0 0.01 0.0368957 0)"/>
+                    </pattern>
+                    <image id="image0_97_847" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4tcRRTGyxfiE1HwEZJ0nWs0IOpCxZU6glufi0GdrurRBIKCcaOggiAYxT9AVNyIoKAG3Aoq0YUQXcT0OdcxgYgaCKgkQiTEV5JxpC5O7FvdtzOZ7plz6nR9UIvpR91zv1+dqjrVMz3GZGVlZWVlrbI80EKSzdJxb2nWaBO7sTBKw398Cx8zmsRvKmUouoCQrkyJb84Il9cORQ8Q0gEldSAOcL7/Z9xkUlXyQIruozGUpDMldSDGGKMKigYgqqBoAaIGiiYgKqBoA5I8FI1AkoaiFUiyUDQDSRLKcoEMP8KgsbVxxJsUlEkAkhSUSQGSDJRJApIElFFvMMV4nWQokwhENJRJBSIWyiQDEQkl9UXdr1CrIHH83lcGQs1gLB3PQEBGhrBN4TlDSAcQrfLcfrAHIEzsfrAHIEzsfrAHIEzsfkhf1P0q75oyEMhAcoYMUc4QyBkia0QIE7sf7AEIE7sf7AEIE7sf7AEIE7sfuQ6pKwOBvMsay4jgrrh9rtQzkFUR+5wpTOx+sAcgTOx+sAcgTOx+sAcgTOx+5F1WXRkI5G3vWEYEdz3hcx2SgayK2OdMYWL3gz0AYWL3gz0AYWL3gz0AYWL3gz0AYWL3YyUDcAVe7gG3OaDPHOBeb2mHs/h0e8NXFxuhUgvEW7rPWTzSUC/81F5PNxmBUgmk0+o+0P93e1Gz+Mtsq3uJESZ1QGZbXTskM2rNAT5nhEkdEA/0QWT6nx7wKVfg9d7S6/UsoR1GmFQBqbIj/h5di53F5x8udl8TTVvfGWFSBcRZer7eH37Zv+vqhUUHjTApA4KfRtPV5t7nZwq6YakZ8oJZOHPLzbvOWeq1p6Y+Pzu8x4woVUC8pUO9fc2sL4v4WxPqwOjjQf24Ah/3QEe9xb+dpVearteB8kZn8TVvaZ+zdMwB/uqhnB7pHrQAmTbbz4rWjxPxiHWAH0VT2ra4n3ZBd/VtmS0+WIt5zZ7LvMW3qq/A6N+5/WzMwhlm0oG4K/CCaPT/3vv8bGvuyurfFPVeryhvGdDH/gE1S3ky3gJv8xYPNG+l6cfl3oMqIEHO4l+9fW1eO3fpyetYfDUy+UA8ksP01GR0x9IdzuKTYWpqeM0JB7S7DXS7FD/YAwgjuTZaW+X94fG2pY2xkc6Wz/S+twPdW/syqF6zHGrKCAdle3rtzvNG9UIhkHrh5yx9GHY/DnBn9PjB6evmLlx830Prvl7jgX6ov+ZU1X5YP/DNTRv3XjQWIzQCabe6d0YL7LwHem/AmrD1/+vjtQ5wTzz9eFtOOaDDDdnyWzi8NCsgVUDCmuCBvh02sp2lL8LuKxwshmlrUCY4iy+F3hzQiwMyA0PFb1ZIyoBUW9t7TjHVbPcWP6nqjIFrAr69uNhv3bDv3P/Oxv7wgN/7Ap89nWJxOVIHpOrT4rvDoTRmzzthzRlHDMuOXRuQtqV74+3vEtpRB+UTRoBUAak+mGquExYGrBVHwtHHI1d/s84IkRogoRKPM8MBzodzqbD7ckBvhLMrB/S+t/hy2CWNq3YYp9QACcVftB4c8wXNmMSkBkjVV3XgV1XPhz3g3SZBqQKyOHVtuWrX+SZRqQOSujy3H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H6d5CDhxzWQgxA4hAwF+4zMQ4DdbJJCsrKysLDPp+hdlrG9fHfucoAAAAABJRU5ErkJggg=="/>
+                    </defs>
+                    </svg>
+                <div class=" text-neutral-800 text-2xl font-normal font-['Roboto']">Legal Aggrement</div>
+                <div class=" text-neutral-800 text-xl font-light font-['Roboto']">1.house Agmgerment<br/>2.shop aggremtn <br/>3.rent aggrement</div>
+            </div>
+        </div>
+        <div class="text-violet-700 text-xl font-light font-['Roboto']">Read More ></div>
+            </div>
+              <img src="./img/service.png" alt="" class="h-[300px] object-cover">
+        
+
+      </div>
+    </div>
+    <!-- How it Works Section-->
+    <section class="flex flex-col items-center py-16">
+      <h1 class="text-black mb-3 text-5xl font-medium font-['Roboto']">How it Works</h1>
+      <div class="w-full flex justify-center p-[30px] items-center rounded-[16px]" style="background-color: #EFE9FB;">
+        <div class="flex w-[142ch]  gap-[30px]">
+    
+        <div class="flex flex-col gap-[16px]">
+            <div class="text-black  text-xl font-bold ">Step involved in registering<br> <div class="text-violet-700 text-xl font-bold ">Leave & License</div></div>
+            <p class="text-black text-base"> Fast & Secure</p>
+        </div>
+
+        <div class="flex flex-col gap-[16px]">
+          <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="26.9918" height="25" fill="url(#pattern0_97_847)"/>
+              <defs>
+                <pattern id="pattern0_97_847" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0_97_847" transform="matrix(0.00926209 0 0 0.01 0.0368957 0)"/>
+                </pattern>
+                <image id="image0_97_847" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4tcRRTGyxfiE1HwEZJ0nWs0IOpCxZU6glufi0GdrurRBIKCcaOggiAYxT9AVNyIoKAG3Aoq0YUQXcT0OdcxgYgaCKgkQiTEV5JxpC5O7FvdtzOZ7plz6nR9UIvpR91zv1+dqjrVMz3GZGVlZWVlrbI80EKSzdJxb2nWaBO7sTBKw398Cx8zmsRvKmUouoCQrkyJb84Il9cORQ8Q0gEldSAOcL7/Z9xkUlXyQIruozGUpDMldSDGGKMKigYgqqBoAaIGiiYgKqBoA5I8FI1AkoaiFUiyUDQDSRLKcoEMP8KgsbVxxJsUlEkAkhSUSQGSDJRJApIElFFvMMV4nWQokwhENJRJBSIWyiQDEQkl9UXdr1CrIHH83lcGQs1gLB3PQEBGhrBN4TlDSAcQrfLcfrAHIEzsfrAHIEzsfrAHIEzsfkhf1P0q75oyEMhAcoYMUc4QyBkia0QIE7sf7AEIE7sf7AEIE7sf7AEIE7sfuQ6pKwOBvMsay4jgrrh9rtQzkFUR+5wpTOx+sAcgTOx+sAcgTOx+sAcgTOx+5F1WXRkI5G3vWEYEdz3hcx2SgayK2OdMYWL3gz0AYWL3gz0AYWL3gz0AYWL3gz0AYWL3YyUDcAVe7gG3OaDPHOBeb2mHs/h0e8NXFxuhUgvEW7rPWTzSUC/81F5PNxmBUgmk0+o+0P93e1Gz+Mtsq3uJESZ1QGZbXTskM2rNAT5nhEkdEA/0QWT6nx7wKVfg9d7S6/UsoR1GmFQBqbIj/h5di53F5x8udl8TTVvfGWFSBcRZer7eH37Zv+vqhUUHjTApA4KfRtPV5t7nZwq6YakZ8oJZOHPLzbvOWeq1p6Y+Pzu8x4woVUC8pUO9fc2sL4v4WxPqwOjjQf24Ah/3QEe9xb+dpVearteB8kZn8TVvaZ+zdMwB/uqhnB7pHrQAmTbbz4rWjxPxiHWAH0VT2ra4n3ZBd/VtmS0+WIt5zZ7LvMW3qq/A6N+5/WzMwhlm0oG4K/CCaPT/3vv8bGvuyurfFPVeryhvGdDH/gE1S3ky3gJv8xYPNG+l6cfl3oMqIEHO4l+9fW1eO3fpyetYfDUy+UA8ksP01GR0x9IdzuKTYWpqeM0JB7S7DXS7FD/YAwgjuTZaW+X94fG2pY2xkc6Wz/S+twPdW/syqF6zHGrKCAdle3rtzvNG9UIhkHrh5yx9GHY/DnBn9PjB6evmLlx830Prvl7jgX6ov+ZU1X5YP/DNTRv3XjQWIzQCabe6d0YL7LwHem/AmrD1/+vjtQ5wTzz9eFtOOaDDDdnyWzi8NCsgVUDCmuCBvh02sp2lL8LuKxwshmlrUCY4iy+F3hzQiwMyA0PFb1ZIyoBUW9t7TjHVbPcWP6nqjIFrAr69uNhv3bDv3P/Oxv7wgN/7Ap89nWJxOVIHpOrT4rvDoTRmzzthzRlHDMuOXRuQtqV74+3vEtpRB+UTRoBUAak+mGquExYGrBVHwtHHI1d/s84IkRogoRKPM8MBzodzqbD7ckBvhLMrB/S+t/hy2CWNq3YYp9QACcVftB4c8wXNmMSkBkjVV3XgV1XPhz3g3SZBqQKyOHVtuWrX+SZRqQOSujy3H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H6d5CDhxzWQgxA4hAwF+4zMQ4DdbJJCsrKysLDPp+hdlrG9fHfucoAAAAABJRU5ErkJggg=="/>
+              </defs>
+          </svg>
+          <div class="text-black font-bold text-sm">Doorstep Service</div>
+          <div class="text-black text-sm">Appontment or meeting can we placed home</div>
+        </div>
+        <div class="flex flex-col gap-[16px]">
+          <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="26.9918" height="25" fill="url(#pattern0_97_847)"/>
+            <defs>
+            <pattern id="pattern0_97_847" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_97_847" transform="matrix(0.00926209 0 0 0.01 0.0368957 0)"/>
+            </pattern>
+            <image id="image0_97_847" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4tcRRTGyxfiE1HwEZJ0nWs0IOpCxZU6glufi0GdrurRBIKCcaOggiAYxT9AVNyIoKAG3Aoq0YUQXcT0OdcxgYgaCKgkQiTEV5JxpC5O7FvdtzOZ7plz6nR9UIvpR91zv1+dqjrVMz3GZGVlZWVlrbI80EKSzdJxb2nWaBO7sTBKw398Cx8zmsRvKmUouoCQrkyJb84Il9cORQ8Q0gEldSAOcL7/Z9xkUlXyQIruozGUpDMldSDGGKMKigYgqqBoAaIGiiYgKqBoA5I8FI1AkoaiFUiyUDQDSRLKcoEMP8KgsbVxxJsUlEkAkhSUSQGSDJRJApIElFFvMMV4nWQokwhENJRJBSIWyiQDEQkl9UXdr1CrIHH83lcGQs1gLB3PQEBGhrBN4TlDSAcQrfLcfrAHIEzsfrAHIEzsfrAHIEzsfkhf1P0q75oyEMhAcoYMUc4QyBkia0QIE7sf7AEIE7sf7AEIE7sf7AEIE7sfuQ6pKwOBvMsay4jgrrh9rtQzkFUR+5wpTOx+sAcgTOx+sAcgTOx+sAcgTOx+5F1WXRkI5G3vWEYEdz3hcx2SgayK2OdMYWL3gz0AYWL3gz0AYWL3gz0AYWL3gz0AYWL3YyUDcAVe7gG3OaDPHOBeb2mHs/h0e8NXFxuhUgvEW7rPWTzSUC/81F5PNxmBUgmk0+o+0P93e1Gz+Mtsq3uJESZ1QGZbXTskM2rNAT5nhEkdEA/0QWT6nx7wKVfg9d7S6/UsoR1GmFQBqbIj/h5di53F5x8udl8TTVvfGWFSBcRZer7eH37Zv+vqhUUHjTApA4KfRtPV5t7nZwq6YakZ8oJZOHPLzbvOWeq1p6Y+Pzu8x4woVUC8pUO9fc2sL4v4WxPqwOjjQf24Ah/3QEe9xb+dpVearteB8kZn8TVvaZ+zdMwB/uqhnB7pHrQAmTbbz4rWjxPxiHWAH0VT2ra4n3ZBd/VtmS0+WIt5zZ7LvMW3qq/A6N+5/WzMwhlm0oG4K/CCaPT/3vv8bGvuyurfFPVeryhvGdDH/gE1S3ky3gJv8xYPNG+l6cfl3oMqIEHO4l+9fW1eO3fpyetYfDUy+UA8ksP01GR0x9IdzuKTYWpqeM0JB7S7DXS7FD/YAwgjuTZaW+X94fG2pY2xkc6Wz/S+twPdW/syqF6zHGrKCAdle3rtzvNG9UIhkHrh5yx9GHY/DnBn9PjB6evmLlx830Prvl7jgX6ov+ZU1X5YP/DNTRv3XjQWIzQCabe6d0YL7LwHem/AmrD1/+vjtQ5wTzz9eFtOOaDDDdnyWzi8NCsgVUDCmuCBvh02sp2lL8LuKxwshmlrUCY4iy+F3hzQiwMyA0PFb1ZIyoBUW9t7TjHVbPcWP6nqjIFrAr69uNhv3bDv3P/Oxv7wgN/7Ap89nWJxOVIHpOrT4rvDoTRmzzthzRlHDMuOXRuQtqV74+3vEtpRB+UTRoBUAak+mGquExYGrBVHwtHHI1d/s84IkRogoRKPM8MBzodzqbD7ckBvhLMrB/S+t/hy2CWNq3YYp9QACcVftB4c8wXNmMSkBkjVV3XgV1XPhz3g3SZBqQKyOHVtuWrX+SZRqQOSujy3H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H6d5CDhxzWQgxA4hAwF+4zMQ4DdbJJCsrKysLDPp+hdlrG9fHfucoAAAAABJRU5ErkJggg=="/>
+            </defs>
+            </svg>
+            <div class="text-black font-bold text-sm">Biiometric Authentication</div>
+            <div class="text-black text-sm">Our Executive will visit at your place with bio metric device.</div>
+        </div>
+        <div class="flex flex-col gap-[16px]">
+          <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="26.9918" height="25" fill="url(#pattern0_97_847)"/>
+              <defs>
+              <pattern id="pattern0_97_847" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_97_847" transform="matrix(0.00926209 0 0 0.01 0.0368957 0)"/>
+              </pattern>
+              <image id="image0_97_847" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4tcRRTGyxfiE1HwEZJ0nWs0IOpCxZU6glufi0GdrurRBIKCcaOggiAYxT9AVNyIoKAG3Aoq0YUQXcT0OdcxgYgaCKgkQiTEV5JxpC5O7FvdtzOZ7plz6nR9UIvpR91zv1+dqjrVMz3GZGVlZWVlrbI80EKSzdJxb2nWaBO7sTBKw398Cx8zmsRvKmUouoCQrkyJb84Il9cORQ8Q0gEldSAOcL7/Z9xkUlXyQIruozGUpDMldSDGGKMKigYgqqBoAaIGiiYgKqBoA5I8FI1AkoaiFUiyUDQDSRLKcoEMP8KgsbVxxJsUlEkAkhSUSQGSDJRJApIElFFvMMV4nWQokwhENJRJBSIWyiQDEQkl9UXdr1CrIHH83lcGQs1gLB3PQEBGhrBN4TlDSAcQrfLcfrAHIEzsfrAHIEzsfrAHIEzsfkhf1P0q75oyEMhAcoYMUc4QyBkia0QIE7sf7AEIE7sf7AEIE7sf7AEIE7sfuQ6pKwOBvMsay4jgrrh9rtQzkFUR+5wpTOx+sAcgTOx+sAcgTOx+sAcgTOx+5F1WXRkI5G3vWEYEdz3hcx2SgayK2OdMYWL3gz0AYWL3gz0AYWL3gz0AYWL3gz0AYWL3YyUDcAVe7gG3OaDPHOBeb2mHs/h0e8NXFxuhUgvEW7rPWTzSUC/81F5PNxmBUgmk0+o+0P93e1Gz+Mtsq3uJESZ1QGZbXTskM2rNAT5nhEkdEA/0QWT6nx7wKVfg9d7S6/UsoR1GmFQBqbIj/h5di53F5x8udl8TTVvfGWFSBcRZer7eH37Zv+vqhUUHjTApA4KfRtPV5t7nZwq6YakZ8oJZOHPLzbvOWeq1p6Y+Pzu8x4woVUC8pUO9fc2sL4v4WxPqwOjjQf24Ah/3QEe9xb+dpVearteB8kZn8TVvaZ+zdMwB/uqhnB7pHrQAmTbbz4rWjxPxiHWAH0VT2ra4n3ZBd/VtmS0+WIt5zZ7LvMW3qq/A6N+5/WzMwhlm0oG4K/CCaPT/3vv8bGvuyurfFPVeryhvGdDH/gE1S3ky3gJv8xYPNG+l6cfl3oMqIEHO4l+9fW1eO3fpyetYfDUy+UA8ksP01GR0x9IdzuKTYWpqeM0JB7S7DXS7FD/YAwgjuTZaW+X94fG2pY2xkc6Wz/S+twPdW/syqF6zHGrKCAdle3rtzvNG9UIhkHrh5yx9GHY/DnBn9PjB6evmLlx830Prvl7jgX6ov+ZU1X5YP/DNTRv3XjQWIzQCabe6d0YL7LwHem/AmrD1/+vjtQ5wTzz9eFtOOaDDDdnyWzi8NCsgVUDCmuCBvh02sp2lL8LuKxwshmlrUCY4iy+F3hzQiwMyA0PFb1ZIyoBUW9t7TjHVbPcWP6nqjIFrAr69uNhv3bDv3P/Oxv7wgN/7Ap89nWJxOVIHpOrT4rvDoTRmzzthzRlHDMuOXRuQtqV74+3vEtpRB+UTRoBUAak+mGquExYGrBVHwtHHI1d/s84IkRogoRKPM8MBzodzqbD7ckBvhLMrB/S+t/hy2CWNq3YYp9QACcVftB4c8wXNmMSkBkjVV3XgV1XPhz3g3SZBqQKyOHVtuWrX+SZRqQOSujy3H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H+wBCBO7H6d5CDhxzWQgxA4hAwF+4zMQ4DdbJJCsrKysLDPp+hdlrG9fHfucoAAAAABJRU5ErkJggg=="/>
+              </defs>
+            </svg>
+            <div class="text-black font-bold text-sm">Privacy & Protection</div>
+            <div class="text-black text-sm">Now a Days Privacy is most important part while sharing details</div>
+          </div>             
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials-->
+  
+    <div class="container mx-auto py-8">
+      <h2 class="text-5xl text-center mb-8">Testimonials</h2>
+    </div>
+    <div class="w-full bg-violet-700">
+      <div class="container mx-auto py-12">
+        <div class="scrolling-wrapper">
+          <!-- card 1-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+            <h3 class="text-purple-600 font-semibold mb-2">Legal Document</h3>
+            <p>Facing a contract dispute, I contacted [Law Firm Name] and was immediately impressed by their knowledge. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            <div class="stars-and-image mt-4">
+              <div class="stars">
+                <span class="text-yellow-500">★★★★★</span>
+              </div>
+              <img src="./img/sarah.png" alt="Sarah B." class="profile-image">
+              <div class="profile-info">
+                <p class="text-gray-900">Sarah B.</p>
+                <p class="text-sm text-gray-500">Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+   
+
+<!--Accordian Section-->
+
+<div class="flex justify-center flex-col items-center py-[80px]  ">
+  <div class="flex  w-[150ch] justify-center py-[32px] flex-row rounded-[20px] shadow-lg" style="background-color: #EFE9FB;">
+    <div class="basis-1/2"> <!-- Empty Div --></div>
+      <div class="basis-1/2 bg-white rounded-[15px] m-4 p-4">
+        <div class="max-w-lg mx-auto">
+        <!-- Question 1 -->
+          <div class="mb-2">
+              <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+                  onclick="toggleAccordion('accordion-1')">
+                  <span class="text-lg font-medium">1. Write Question1 ?</span>
+                  <svg class="w-4 h-4 transform transition-transform" id="accordion-1-arrow" viewBox="0 0 20 20"
+                      fill="currentColor">
+                      <path fill-rule="evenodd"
+                          d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                          clip-rule="evenodd" />
+                  </svg>
+              </button>
+              <div id="accordion-1" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+                  <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+              </div>
+          </div>
+    
+          <!-- Question 2 -->
+          <div class="mb-2">
+              <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+                  onclick="toggleAccordion('accordion-2')">
+                  <span class="text-lg font-medium">2. Write Question2 ?</span>
+                  <svg class="w-4 h-4 transform transition-transform" id="accordion-2-arrow" viewBox="0 0 20 20"
+                      fill="currentColor">
+                      <path fill-rule="evenodd"
+                          d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                          clip-rule="evenodd" />
+                  </svg>
+              </button>
+              <div id="accordion-2" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+                  <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+              </div>
+          </div>
+          <div class="mb-2">
+            <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+                onclick="toggleAccordion('accordion-3')">
+                <span class="text-lg font-medium">2. Write Question2 ?</span>
+                <svg class="w-4 h-4 transform transition-transform" id="accordion-3-arrow" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+            <div id="accordion-3" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+                <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+            </div>
+        </div>
+        <div class="mb-2">
+          <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+              onclick="toggleAccordion('accordion-4')">
+              <span class="text-lg font-medium">2. Write Question2 ?</span>
+              <svg class="w-4 h-4 transform transition-transform" id="accordion-4-arrow" viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path fill-rule="evenodd"
+                      d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                      clip-rule="evenodd" />
+              </svg>
+          </button>
+          <div id="accordion-4" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+              <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+          </div>
+        </div>
+        <div class="mb-2">
+                <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+                    onclick="toggleAccordion('accordion-5')">
+                    <span class="text-lg font-medium">2. Write Question2 ?</span>
+                    <svg class="w-4 h-4 transform transition-transform" id="accordion-5-arrow" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div id="accordion-5" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+                    <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+                </div>
+        </div>
+        <div class="mb-2">
+          <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+              onclick="toggleAccordion('accordion-6')">
+              <span class="text-lg font-medium">2. Write Question2 ?</span>
+              <svg class="w-4 h-4 transform transition-transform" id="accordion-6-arrow" viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path fill-rule="evenodd"
+                      d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                      clip-rule="evenodd" />
+              </svg>
+          </button>
+          <div id="accordion-6" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+              <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+          </div>
+        </div>
+        <div class="mb-2">
+          <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+              onclick="toggleAccordion('accordion-7')">
+              <span class="text-lg font-medium">2. Write Question2 ?</span>
+              <svg class="w-4 h-4 transform transition-transform" id="accordion-7-arrow" viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path fill-rule="evenodd"
+                      d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                      clip-rule="evenodd" />
+              </svg>
+          </button>
+          <div id="accordion-7" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+              <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+          </div>
+        </div>
+        <div class="mb-2">
+          <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+              onclick="toggleAccordion('accordion-8')">
+              <span class="text-lg font-medium">2. Write Question2 ?</span>
+              <svg class="w-4 h-4 transform transition-transform" id="accordion-8-arrow" viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path fill-rule="evenodd"
+                      d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                      clip-rule="evenodd" />
+              </svg>
+          </button>
+          <div id="accordion-8" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+              <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+          </div>
+        </div>
+        <div class="mb-2">
+          <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+              onclick="toggleAccordion('accordion-9')">
+              <span class="text-lg font-medium">2. Write Question2 ?</span>
+              <svg class="w-4 h-4 transform transition-transform" id="accordion-9-arrow" viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path fill-rule="evenodd"
+                      d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                      clip-rule="evenodd" />
+              </svg>
+          </button>
+          <div id="accordion-9" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+              <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+          </div>
+        </div>
+        <div class="mb-2">
+          <button class="w-full flex justify-between items-center py-2 px-4 focus:border-b-0 border-b-2 focus:outline-none  transition duration-150 ease-in-out"
+              onclick="toggleAccordion('accordion-10')">
+              <span class="text-lg font-medium">2. Write Question2 ?</span>
+              <svg class="w-4 h-4 transform transition-transform" id="accordion-10-arrow" viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path fill-rule="evenodd"
+                      d="M15.293 7.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L10 10.586l4.293-4.293z"
+                      clip-rule="evenodd" />
+              </svg>
+          </button>
+          <div id="accordion-10" class="accordion-content hidden bg-white rounded-b-lg  overflow-hidden">
+              <p class="text-gray-700 py-4 border-b-2 px-6">Facing a contract dispute, I contacted [Law Firm] and was immediately impressed by their knowlege. [Lawyer Name] took the time to understand my situation and explain the legal options in a clear way</p>
+          </div>
+        </div>
+        </div>    
+      </div>
+    </div>
+   </div>
+
+    <!-- Schedule An Appointment-->
+    <div class="flex w-full my-8 items-center justify-between bg-gray-900 text-white">
+      <div class="w-1/4 flex justify-start overflow-hidden">
+          <div class="relative w-full h-80">
+              <img src="./img/kid.png" alt="Kid" class="absolute inset-0 object-cover w-full h-full transform scale-150" />
+          </div>
+      </div>
+      <div class="w-3/4 ml-6">
+          <h2 class="text-xl font-bold text-gray-200">Unsure about your <span class="text-indigo-400">legal situation?</span></h2>
+          <p class="mt-2 text-lg text-gray-200">Get a <span class="text-indigo-400">FREE consultation</span> call with our expert team. Discuss your options and get <span class="text-indigo-400">clear guidance</span>.</p>
+          <button class="mt-4 bg-indigo-600 text-white py-2 px-4 rounded-lg shadow hover:bg-indigo-500">Schedule a Consultation</button>
+          <p class="mt-2 text-sm text-gray-400">Time is of the essence. Schedule a call with us within 24 hours for priority service.</p>
+      </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer class="w-full flex" style="background-color: #000000;">
+
+        <div class=" text-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" ">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 lg:gap-8 ml-4">
+                
+                <!-- Brand Section -->
+                <div>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 bg-gray-400"></div>
+                        <div>
+                            <h1 class="text-3xl font-bold">brand name</h1>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-lg">
+                        We provide experienced legal representation in 
+                        <span class="text-purple-600">rent agreement</span> etc.
+                    </p>
+                </div>
+                
+                <!-- Service Columns -->
+                <div class="col-span-2">
+                    <div class="grid grid-cols-2 gap-4 md:gap-6">
+                        <div>
+                            <h2 class="text-xl font-semibold mb-4">Service</h2>
+                            <ul class="space-y-2">
+                                <li>Legal Agreements</li>
+                                <li>Legal Documentation</li>
+                                <li>Legal Card</li>
+                                <li>Legal Agreements</li>
+                                <li>Legal Documentation</li>
+                                <li>Legal Card</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-semibold mb-4">Service</h2>
+                            <ul class="space-y-2">
+                                <li>Legal Agreements</li>
+                                <li>Legal Documentation</li>
+                                <li>Legal Card</li>
+                                <li>Legal Agreements</li>
+                                <li>Legal Documentation</li>
+                                <li>Legal Card</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Contact Section -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-4">Service</h2>
+                    <div class="space-y-4">
+                        <div class="flex space-x-2">
+                            <div class="w-8 h-8 bg-gray-400"></div>
+                            <div class="w-8 h-8 bg-gray-400"></div>
+                            <div class="w-8 h-8 bg-gray-400"></div>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input type="text" placeholder="Ask anything" class="w-48 px-3 py-1 border rounded-full bg-white text-gray-900 focus:outline-none">
+                       </div>
+                       <div>
+                            <button class="bg-purple-600 text-white py-1 px-4 rounded-full shadow-sm hover:bg-purple-700">Submit</button>
+    
+                       </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+      </footer>
+      <!-- Divider and Copyright -->
+      <div class="bg-black w-full pb-12">
+      <hr class=" text-white border-gray-600">
+      <div class="text-center text-white">
+          <p>@2024 by owner name</p>
+      </div>
+    </div>
+    
+  </body>
+</html>
+
+
+

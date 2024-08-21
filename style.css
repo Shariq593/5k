@@ -1,0 +1,39 @@
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-320px * 10)); } /* Adjust to scroll the width of 10 cards */
+  }
+  .scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: scroll 25s linear infinite; /* Adjust duration to your preference */
+  }
+  .scrolling-wrapper:hover {
+    animation-play-state: paused;
+  }
+  .scrolling-wrapper div {
+    flex: 0 0 auto;
+    width: 320px; /* Adjust to fit your design */
+    margin-right: 1rem;
+  }
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .stars-and-image {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: flex-start; /* Align items to the start */
+  }
+  .stars {
+    margin-bottom: 0.5rem; /* Add some space between stars and image */
+  }
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .profile-info {
+    margin-top: 0.5rem; /* Add some space between image and text */
+  }
